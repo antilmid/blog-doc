@@ -1,0 +1,22 @@
+menu:
+  杂文POSt: /
+  分类文档: /doc/index.html
+  归档: /archives/
+  #   Weibo: http://weibo.com/sunchongsheng
+  GitHub: https://github.com/antilmid
+  Rss: /atom.xml
+
+favicon: /favicon.png
+logo: /favicon.png
+
+# Comment
+# e.g disqus: seansun
+disqus:
+duoshuo:
+
+# Analytics
+# google-analytics:
+# ga: UA-xxxxxxxx-x
+
+# Copyright Infomation
+startyear: 2015

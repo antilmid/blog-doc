@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 避风港
 subtitle: ""
-description: ""
-keywords:
-author: John Doe
-language: en
-timezone: ""
+description: "ant的个人知识库📒"
+keywords: "笔记"
+author: Antilmid
+language: zh-CN
+timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://antilmid.github.io/blog-doc/
 root: /blog-doc/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,7 +98,17 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: apollo
+
+# 在归档页面显示所有文章
+# 需要上面安装的 hexo-generator-archive 插件支持
+archive_generator:
+  per_page: 0
+  yearly: false
+  monthly: false
+  daily: false
+
+# category_map: doc/tech
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
